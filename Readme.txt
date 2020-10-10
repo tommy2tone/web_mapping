@@ -1,0 +1,1 @@
+Create web map using Python, Folium and Pandas to show volcanoes in the US and their proximity to popluated locations.  The mapping.py file generates a Map.html that can be opened and viewed in a browser.

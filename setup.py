@@ -1,26 +1,21 @@
 from setuptools import setup, find_packages
 
 requires = [
-    'TA-Lib',
-    'matplotlib',
-    'mplfinance',
     'pandas',
-    'numpy',
-    'requests',
-    'requests_oauthlib',
+    'folium',
 
 
 ]
 
 setup(
-    name='stock_dashboard',
+    name='web_mapping',
     version='',
     packages=find_packages(),
-    keywords='python stock candlestick matplotlib pandas Ally',
+    keywords='python pandas folium',
     url='',
     license='',
     author='Tom Hildebrand',
     author_email='t1manster@gmail.com',
-    description='Stock Dashboard to connect to an Ally account for retrieving information about stocks.',
+    description='Web mapping to visually depict population density and volcanos.',
     install_requires=requires
 )
